@@ -1,0 +1,226 @@
+                                                                            /* X-Small devices (portrait phones, less than 576px) */
+                                                                            
+                                                                            @media (min-width: 400px) and (max-width: 575.98px) {
+                                                                                html {
+                                                                                    overflow-x: hidden;
+                                                                                }
+                                                                                .navbar-light .navbar-toggler {
+                                                                                    color: #fff;
+                                                                                    background-color: #fff;
+                                                                                }
+                                                                                #banar {
+                                                                                    height: 800px;
+                                                                                    width: 100%;
+                                                                                }
+                                                                                .about_pc img {
+                                                                                    height: 300px;
+                                                                                    width: 300px;
+                                                                                    overflow: hidden;
+                                                                                    left: 0;
+                                                                                }
+                                                                                .about_list_main {
+                                                                                    text-align: left;
+                                                                                    flex-wrap: wrap;
+                                                                                    top: 50px;
+                                                                                }
+                                                                                .port_img_main img {
+                                                                                    text-align: center;
+                                                                                    width: 280px;
+                                                                                    height: 250px;
+                                                                                    padding: 10px;
+                                                                                }
+                                                                                .port_overly {
+                                                                                    position: absolute;
+                                                                                    top: 10px;
+                                                                                    left: 10px;
+                                                                                    height: 92%;
+                                                                                    width: 93%;
+                                                                                    background-color: #fd7d1479;
+                                                                                    opacity: 0;
+                                                                                }
+                                                                                .port_img_main {
+                                                                                    display: flex;
+                                                                                    justify-content: space-between;
+                                                                                    flex-wrap: wrap;
+                                                                                    text-align: center;
+                                                                                }
+                                                                                .blog_img img {
+                                                                                    height: 250px;
+                                                                                    width: 40%;
+                                                                                    padding: 10px;
+                                                                                }
+                                                                            }
+                                                                            /*  Small devices (landscape phones, less than 768px) */
+                                                                            
+                                                                            @media (min-width: 576px) and (max-width: 767.98px) {
+                                                                                .navbar-light .navbar-toggler {
+                                                                                    color: #fff;
+                                                                                    background-color: #fff;
+                                                                                }
+                                                                                .about_list_main {
+                                                                                    text-align: left;
+                                                                                    flex-wrap: wrap;
+                                                                                    top: 50px;
+                                                                                }
+                                                                                .port_img_main img {
+                                                                                    text-align: center;
+                                                                                    width: 350;
+                                                                                    height: 350;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                                .port_overly {
+                                                                                    position: absolute;
+                                                                                    top: 19px;
+                                                                                    left: 19px;
+                                                                                    height: 87%;
+                                                                                    width: 50.5%;
+                                                                                    background-color: #fd7d1479;
+                                                                                    opacity: 0;
+                                                                                }
+                                                                                .blog_img img {
+                                                                                    height: 280px;
+                                                                                    width: 60%;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                            }
+                                                                            /*  Medium devices (tablets, less than 992px) */
+                                                                            
+                                                                            @media (min-width: 768px) and (max-width: 991.98px) {
+                                                                                .navbar-light .navbar-nav .nav-link.active {
+                                                                                    color: darkorange;
+                                                                                }
+                                                                                .navbar-expand-lg .navbar-nav .nav-link {
+                                                                                    margin: 0 40px;
+                                                                                    text-align: center;
+                                                                                    font-size: 20px;
+                                                                                    color: darkgray;
+                                                                                }
+                                                                                .navbar-light .navbar-nav .nav-link.active {
+                                                                                    color: darkorange;
+                                                                                }
+                                                                                .navbar-light .navbar-toggler {
+                                                                                    color: #fff;
+                                                                                    background-color: #fff;
+                                                                                }
+                                                                                .about_list_main {
+                                                                                    text-align: left;
+                                                                                    flex-wrap: wrap;
+                                                                                    top: 50px;
+                                                                                }
+                                                                                .port_overly {
+                                                                                    position: absolute;
+                                                                                    top: 19px;
+                                                                                    left: 20px;
+                                                                                    height: 87%;
+                                                                                    width: 87%;
+                                                                                    background-color: #fd7d1479;
+                                                                                    opacity: 0;
+                                                                                }
+                                                                                .port_img_main img {
+                                                                                    text-align: center;
+                                                                                    width: 420;
+                                                                                    height: 420;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                                .port_img_main {
+                                                                                    display: flex;
+                                                                                    justify-content: space-evenly;
+                                                                                    text-align: center;
+                                                                                }
+                                                                                .blog_img img {
+                                                                                    height: 350px;
+                                                                                    width: 350px;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                            }
+                                                                            /*  Large devices (desktops, less than 1200px) */
+                                                                            
+                                                                            @media (min-width: 992px) and (max-width: 1199.98px) {
+                                                                                .navbar-light .navbar-nav .nav-link {
+                                                                                    margin: 0 30px;
+                                                                                    text-align: center;
+                                                                                    font-size: 20px;
+                                                                                    color: darkgray;
+                                                                                }
+                                                                                .navbar-expand-lg .navbar-nav .nav-link:hover {
+                                                                                    color: #fff;
+                                                                                    transition: 0.5s;
+                                                                                    -webkit-transition: 0.5s;
+                                                                                    -moz-transition: 0.5s;
+                                                                                    -ms-transition: 0.5s;
+                                                                                    -o-transition: 0.5s;
+                                                                                }
+                                                                                .about_list_main {
+                                                                                    text-align: left;
+                                                                                    flex-wrap: wrap;
+                                                                                    top: 50px;
+                                                                                }
+                                                                                .port_img_main img {
+                                                                                    text-align: center;
+                                                                                    width: 420;
+                                                                                    height: 420;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                                .port_overly {
+                                                                                    position: absolute;
+                                                                                    top: 20px;
+                                                                                    left: 20px;
+                                                                                    height: 87%;
+                                                                                    width: 87%;
+                                                                                    background-color: #fd7d1479;
+                                                                                    opacity: 0;
+                                                                                }
+                                                                                .port_img_main {
+                                                                                    display: flex;
+                                                                                    justify-content: space-evenly;
+                                                                                    flex-wrap: wrap;
+                                                                                    text-align: center;
+                                                                                }
+                                                                                .blog_img img {
+                                                                                    height: 280px;
+                                                                                    width: 70%;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                            }
+                                                                            /* X-Large devices (large desktops, less than 1400px) */
+                                                                            
+                                                                            @media (min-width: 1200px) and (max-width: 1399.98px) {
+                                                                                html {
+                                                                                    overflow-x: hidden;
+                                                                                }
+                                                                                .navbar-light .navbar-nav .nav-link {
+                                                                                    margin: 0 40px;
+                                                                                    text-align: center;
+                                                                                    font-size: 20px;
+                                                                                    color: darkgray;
+                                                                                }
+                                                                                .navbar-expand-lg .navbar-nav .nav-link:hover {
+                                                                                    color: #fff;
+                                                                                    transition: 0.5s;
+                                                                                    -webkit-transition: 0.5s;
+                                                                                    -moz-transition: 0.5s;
+                                                                                    -ms-transition: 0.5s;
+                                                                                    -o-transition: 0.5s;
+                                                                                }
+                                                                                .port_img_main img {
+                                                                                    text-align: center;
+                                                                                    width: 500;
+                                                                                    height: 500;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                                .blog_img img {
+                                                                                    height: 60%;
+                                                                                    width: 60%;
+                                                                                    padding: 20px;
+                                                                                }
+                                                                            }
+                                                                            /* yturtu */
+                                                                            
+                                                                            @media (min-width: 1400px) {
+                                                                                .port_overly {
+                                                                                    width: 72%;
+                                                                                }
+                                                                                html {
+                                                                                    overflow-x: hidden;
+                                                                                }
+                                                                            }
